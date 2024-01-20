@@ -710,3 +710,80 @@ h2{
         text-align: center;
     }
 }
+
+//Media Queries
+@media screen and (min-width: 480px){
+    .home{
+        padding-top: 12 rem;
+    }
+
+    .search{
+        .sectionContainer{
+            .searchInputs{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .travelers{
+        .sectionContainer{
+            .travelersContainer{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+    
+    .subscribe{
+        .sectionContainer{
+            max-width: 80%;
+            margin: auto;
+
+            .inputDiv{
+                flex-direction: row;
+                padding: 0 .5rem;
+                border-radius: 3rem;
+            }
+        }
+    }
+
+    .footer{
+        .sectionContainer{
+            align-items: flex-start;
+            grid-template-columns: repeat(2, 1fr);
+
+            .footerLinks{
+                justify-content: center;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 570px){
+    .home{
+        .mainText{
+            width: 80%;
+        }
+
+        .homeImages{
+            .video{
+                border-radius: 15rem;
+            }
+            .plane{
+                position: absolute;
+                width: 95%;
+            }
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            
+        }
+    }
+}
