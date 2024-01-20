@@ -604,3 +604,34 @@ h2{
         }
     }
 }
+
+//subscribe section
+.subscribe{
+    background: var(--SecondaryColor);
+
+    .sectionContainer{
+        text-align: center;
+        .inputDiv{
+            margin-top: 1rem;
+            flex-direction: column;
+            background: var(--whiteColor);
+            border-radius: 1rem;
+
+            input{
+                border: none;
+                outline: none;
+                background: transparent;
+                padding: 1rem .5rem;
+
+                &::placeholder{
+                    opacity: .5;
+                    font-size: 13px;
+                }   
+            }
+
+            .btn{
+                width: 100%;
+            }
+        }
+    }
+}

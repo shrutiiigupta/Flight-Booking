@@ -501,4 +501,30 @@ h2 {
   transition: 1s ease-in-out;
 }
 
+.subscribe {
+  background: var(--SecondaryColor);
+}
+.subscribe .sectionContainer {
+  text-align: center;
+}
+.subscribe .sectionContainer .inputDiv {
+  margin-top: 1rem;
+  flex-direction: column;
+  background: var(--whiteColor);
+  border-radius: 1rem;
+}
+.subscribe .sectionContainer .inputDiv input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 1rem 0.5rem;
+}
+.subscribe .sectionContainer .inputDiv input::placeholder {
+  opacity: 0.5;
+  font-size: 13px;
+}
+.subscribe .sectionContainer .inputDiv .btn {
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */
