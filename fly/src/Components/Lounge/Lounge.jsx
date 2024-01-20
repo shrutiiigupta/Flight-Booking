@@ -51,7 +51,6 @@ const Lounge = () => {
             </p>
           </div>
         </div>
-        
         </div>
 
         
