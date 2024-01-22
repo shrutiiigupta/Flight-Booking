@@ -65,14 +65,17 @@ const Navbar = () => {
             <li onClick={removeNavBar} className="listItem">Offers</li>
             <li onClick={removeNavBar} className="listItem">Seats</li>
             <li onClick={removeNavBar} className="listItem">Destination</li>
-          </ul>
-          <button className="btn flex btnOne">
+
+            <button className="btn flex btnOne">
             Contact
           </button>
 
           <button className="btn flex btnTwo">
             Contact
           </button>
+          
+          </ul>
+          
 
 
         </div>

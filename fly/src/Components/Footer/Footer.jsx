@@ -66,6 +66,27 @@ const Footer = () => {
             <a href="">Our Communities</a>
           </li>
         </div>
+        <div className="footerLinks">
+          <span className="linkTitle">Information</span>
+          <li>
+            <a href="">Chauffuer</a>
+          </li>
+          <li>
+            <a href="">Our Partners</a>
+          </li>
+          <li>
+            <a href="">Destination</a>
+          </li>
+          <li>
+            <a href="">Flight Status</a>
+          </li>
+          <li>
+            <a href="">Travel</a>
+          </li>
+          <li>
+            <a href="">Manage your Booking</a>
+          </li>
+        </div>
       </div>
 
       <div className="copyRightDiv flex">

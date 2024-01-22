@@ -767,8 +767,10 @@ h2{
         }
 
         .homeImages{
-            .video{
-                border-radius: 15rem;
+            .homeVideo{
+                .video{
+                    border-radius: 15rem;
+                }
             }
             .plane{
                 position: absolute;
@@ -784,6 +786,184 @@ h2{
                 flex-direction: row;
             }
             
+        }
+    }
+
+    .support{
+        .sectionContainer{
+            .infoDiv{
+                .textDiv{
+                    margin-top: 2rem;
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+
+    .info{
+        .infoContainer{
+            .titleDiv{
+                flex-direction: row;
+                h2{
+                    text-align: left;
+                    max-width: 500px;
+                }
+            }
+
+            .cardsDiv{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+
+    .lounge{
+        .sectionContainer{
+            .textDiv{
+                .grids{
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+        }
+    }
+
+    .subscribe{
+        .sectionContainer{
+            .inputDiv{
+                justify-content: space-between;
+
+                .btn{
+                    max-width: max-content;
+                }
+            }
+        }
+    }
+
+    .footer{
+        .sectionContainer{
+            padding-top: 2rem;
+            grid-template-columns: repeat(3, 1fr);
+
+            .footerLinks{
+                justify-content: center;
+            }
+            
+        }
+    }
+}
+
+@media screen and (min-width: 680px){
+    .home{
+        .mainText{
+            width: 80%;
+        }
+
+        .homeImages{
+            .homeVideo{
+                width: 80%;
+                .video{
+                    height: 100%;
+                    width: 100%;
+                    border-radius: 15rem;
+                }
+            }
+            .plane{
+                width: 95%;
+                // top: -8%;
+            }
+            
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs{
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    }
+
+    .footer{
+        .sectionContainer{
+            // padding-top: 2rem;
+            grid-template-columns: repeat(4, 1fr);
+            
+        }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .navBar{
+        align-items: center;
+        .navBarOne{
+            .none{
+                display: flex;
+                gap: 1.5rem;
+
+                li{
+                    font-size: 13px;
+                    gap: .5rem;
+                    color: var(--textColor);
+                    &:hover{
+                        color: var(--PrimaryColor);
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .navBarTwo{
+            justify-content: space-between;
+            align-items: center;
+
+            .logoDiv{
+                .Logo{
+                    width: 10%;
+                }
+            }
+            .menu{
+                flex-direction: row;
+                gap: .5rem;
+                .listItem{
+                    padding: 0 .5rem;
+                    font-size: 14px;
+                    cursor: pointer;
+                    color: var(--textColor);
+                    font-weight: 500;
+                    &:hover{
+                        color: var(--PrimaryColor);
+                        font-weight: 700;
+                    }
+                }
+            }
+            .btnOne, .toggleIcon{
+                display: none;
+            }
+        }
+    }
+
+    .search{
+        .sectionContainer{
+            .btns{
+                width: 70%;
+                border-radius: 3rem;
+                flex-direction: row;
+            }
+            .searchInputs{
+                grid-template-columns: repeat(4, 1fr);
+
+                .singleInput{
+                    .texts{
+                        width: 100%;
+                    }
+                }
+
+                .btn{
+                    justify-content: center;
+                }
+            }
         }
     }
 }
