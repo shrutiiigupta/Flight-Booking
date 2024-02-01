@@ -91,7 +91,7 @@ const Footer = () => {
 
       <div className="copyRightDiv flex">
         <p>
-          © 2021 Fly. Developed by <a href="" target='_blank'>Shruti Gupta</a>
+          © 2023 Fly. Developed by <a href="" target='_blank'>Shruti Gupta</a>
         </p>
       </div>
     </div>
